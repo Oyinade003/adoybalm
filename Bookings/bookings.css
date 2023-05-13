@@ -1,0 +1,87 @@
+body{
+   background-image: url('../assets/newroom.png') ;
+   background-size: cover;
+   background-position: center;
+   opacity: 50%;
+   font-family: 'lucida bright';
+}
+
+.top{
+    background-color: rgba(109, 18, 63, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+
+.img1{
+    width: 45px;
+    height: 45px;
+    border: #6d123f solid 0.2px;
+    border-radius: 25px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+h1{
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.tpl{
+    margin-left: 20px;
+    color: #f1eded;
+    text-decoration: none;
+}
+
+.signup{
+    background-color: rgba(109, 18, 63, 0.5);
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 900px;
+    height: 500px;
+    padding-left: 20px;
+}
+
+.form1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.pref{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.day{
+    display: flex;
+    flex-direction: row;
+}
+
+.links{
+    display: flex;
+    background-color: rgba(109, 18, 63, 0.5);
+    align-items: left;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 900px;
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 40px;
+    color: #000;
+}
+
+
+
