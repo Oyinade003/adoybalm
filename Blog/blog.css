@@ -1,28 +1,63 @@
 body {
-    background-color: bisque;
+    background-color: rgb(214, 107, 107);
+    background-image: url('/assets/flower2.jpeg');
+    background-repeat: no-repeat;
+    background-size: 1300px 300px;
     padding-left: 50px;
     padding-right: 50px;
-    font-family: 'lucida bright';
 }
 
 h1{
-    justify-content: center;
+    padding-left: 400px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    font-size: 40px;
 }
 
-div{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    height: 200px;
-}
 
 a{
     text-decoration: none;
-    color: #6D123f;
+    color: #000;
 }
 
 hr{
-    padding-right: 60px;
     color: beige;
+    width: 500px;
+    margin-left: 0.2px;
+}
+
+.blog1{
+    background-color: #fff;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width: 950px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.comment{
+    display: flex;
+    flex-direction: row;
+    color: rgb(214, 107, 107);
+    align-items: left;
+    justify-content: space-between;
+    height: 40px;
+    width: 800px;
+}
+
+.Links{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#lorem{
+    padding-right: 220px;
 }
