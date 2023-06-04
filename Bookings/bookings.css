@@ -2,12 +2,13 @@ body{
    background-image: url('../assets/newroom.png') ;
    background-size: cover;
    background-position: center;
-   opacity: 50%;
    font-family: 'lucida bright';
+   padding: 0;
+   margin: 0;
 }
 
 .top{
-    background-color: rgba(109, 18, 63, 0.5);
+    background-color: rgba(109, 18, 63, 0.9);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,6 +28,12 @@ body{
 
 h1{
     margin-right: auto;
+    color: #fff;
+    text-align: center;
+}
+
+h2{
+    color: #fff;
 }
 
 a{
@@ -41,21 +48,24 @@ a{
 }
 
 .signup{
-    background-color: rgba(109, 18, 63, 0.5);
+    background-color: rgba(109, 18, 63, 0.9);
     display: flex;
     align-items: left;
     justify-content: space-around;
     flex-direction: column;
     width: 900px;
-    height: 500px;
+    height: 700px;
     padding-left: 20px;
+    margin-left: 20px;
 }
 
 .form1{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+    padding-right: 20px;
+    color: #fff;
+    margin-bottom: 40px;
 }
 
 .pref{
@@ -63,24 +73,29 @@ a{
     align-items: center;
     justify-content: space-between;
     padding-right: 20px;
+    color: #fff;
+    margin-bottom: 40px;
 }
 
 .day{
     display: flex;
     flex-direction: row;
+    color: #fff;
+    margin-bottom: 200px;
 }
 
 .links{
     display: flex;
-    background-color: rgba(109, 18, 63, 0.5);
+    background-color: rgba(109, 18, 63, 0.9);
     align-items: left;
     justify-content: space-between;
     flex-direction: column;
-    width: 900px;
-    height: 300px;
-    padding-left: 20px;
-    padding-top: 40px;
-    color: #000;
+    width: 880px;
+    height: 200px;
+    padding-left: 40px;
+    margin-top: 100px;
+    color: #fff;
+    margin-left: 20px;
 }
 
 
