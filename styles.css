@@ -29,6 +29,12 @@ a {
     text-decoration: none;
 }
 
+#login{
+    background-color: #6D123F;
+    color: #fff;
+    padding-right: 20px;
+}
+
 .images {
     display: flex;
     align-items: center;
@@ -40,7 +46,7 @@ p {
     align-self: center;
 }
 
-.links{
+.links .pages .other{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -64,6 +70,10 @@ p {
 .div3{
     background-color: #6D123F;
     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
     
 }
 
