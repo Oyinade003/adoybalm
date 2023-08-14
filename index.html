@@ -11,8 +11,9 @@
 
 <body>
   <div class="container">
-    <div class="header">
-      <h1> ADOYBALM MASSAGE </h1>
+    <header class="header">
+      <img src="assets/AD G116.jpg" class="logo" alt="logo">
+      <h2> ADOYBALM MASSAGE </h2>
       <nav class="navbar">
         <ul class="menu">
           <li><a href="./index.html"> Home </a></li>
@@ -21,8 +22,25 @@
           <li><a href="./Bookings/index.html"> Bookings </a></li>
           <li><button id="login"> Log in </button></li>
         </ul>
-      </nav>
+      <nav class="sidebar-nav">
+        <button class="hamburger" type="button">
+            <span class="bar">
+            </span>
+        </button>
+    </nav>
+    </nav>
+</header>
+<nav class="mobile-nav is-active">
+    <button class="close-menu" onclick="closemenu"> X </button>
+    <div class="menu-div">
+        <a href="/index.html"> HOME </a>
+        <a href="/About/index.html"> ABOUT </a>
+        <a href="/Blog/index.html"> OUR BLOG </a>
+        <a href="/Bookings/index.html"> BOOKINGS </a>
+        <a href="./Messages/messages.html"> CONTACT US </a>
     </div>
+</nav>
+    
 
     <div class="img-div">
       <div class="pitch1">
@@ -298,7 +316,7 @@
   </div>
 
 
-
+  <script src="app.js"></script>
 </body>
 
 </html>
