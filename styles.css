@@ -27,18 +27,9 @@ body {
     width: 50%;
     border: 8px solid rgba(109, 18, 63, 1.0);
     border-radius: 10%;
-
-    @media(max-width: 540px){
-        /* width: 15em; */
-    }
 }
 .menu{
     display: flex;
-
-    @media(max-width: 540px){
-        flex-direction: column;
-        justify-content: space-between;
-    }
 }
 .navbar .menu a{
     text-decoration: none;
@@ -205,6 +196,19 @@ footer a{
 .copyright{
     text-align: center;
 }
+
+@media(max-width: 540px){
+    .menu{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
 
 /*p {
     align-self: center;
