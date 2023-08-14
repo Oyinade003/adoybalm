@@ -196,6 +196,9 @@ footer a{
         justify-content: space-between;
         
     }
+    .header{
+        flex-direction: column;
+    }
 }
 
 
